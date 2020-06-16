@@ -5,8 +5,7 @@ module.exports = {
    */
   head: {
     title: process.env.npm_package_name || '',
-    meta: [
-      {
+    meta: [{
         charset: 'utf-8'
       },
       {
@@ -19,13 +18,11 @@ module.exports = {
         content: process.env.npm_package_description || ''
       }
     ],
-    link: [
-      {
-        rel: 'icon',
-        type: 'image/x-icon',
-        href: '/favicon.ico'
-      }
-    ]
+    link: [{
+      rel: 'icon',
+      type: 'image/x-icon',
+      href: '/favicon.ico'
+    }]
   },
   /*
    ** Customize the progress-bar color
@@ -36,7 +33,7 @@ module.exports = {
   /*
    ** Global CSS
    */
-  css: [],
+  css: ['@/assets/styles/main.scss'],
   /*
    ** Plugins to load before mounting the App
    */
