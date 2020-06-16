@@ -5,14 +5,14 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
-import NavBar from '~/components/NavBar.vue'
+import Vue from 'vue';
+import NavBar from '~/components/NavBar.vue';
 
 export default Vue.extend({
   components: {
-    NavBar
-  }
-})
+    NavBar,
+  },
+});
 </script>
 
 <style lang="scss" scopes>
